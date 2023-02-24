@@ -5,14 +5,8 @@ the program prints each lexeme / token pair to the screen.
 
 The source code file provided by the user will be written in a new programming language called “DanC” and is
 based upon the following grammar (in BNF):
-P ::= S
-S ::= V=E | read(V) | print(V) | do { S } while C | S;S
-C ::= E < E | E > E | E == E | E <> E | E <= E | E >= E
-E ::= T | E + T | E - T
-T ::= F | T * F | T / F | T % F
-F ::= (E) | N | V
-V ::= a | b | … | y | z | aV | bV | … | yV | zV
-N ::= 0 | 1 | … | 8 | 9 | 0N | 1N | … | 8N | 9N
+![image](https://user-images.githubusercontent.com/65064098/221278690-1a76a76d-25fb-4a3a-8909-d8ca837918ad.png)
+
 
 
 Lexeme formation is guided using the BNF rules / grammar above. This application will output each lexeme
